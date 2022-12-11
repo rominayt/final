@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Dolce Jesi</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="/img/logo.png">
+</head>
+<body class="fondo">
+    <nav class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <a href="index.html"><img src="img/logo.png" width="120" height="120"></a>
+            </div>
+            <div class="col mt-5">
+                <a href="index.html">Pastelería</a>
+            </div>
+            <div class="col mt-5">
+                <a href="Tartas.html">Tartas</a>
+            </div>
+            <div class="col mt-5">
+                <a href="cya.html">Cupcakes y Alfajores</a>
+            </div>
+            <div class="col mt-5">
+                <a href="contacto.html">Contacto</a>
+            </div>
+            <div class="col mt-5">
+                <a href="nosotros.html">Sobre nosotros</a>
+            </div>        
+    </nav>
+
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="img/pasteleria/1.jpg" class="foto_articulos">                
+            </div>                           
+            <div class="col-md-3">
+                <img src="img/pasteleria/2.jpg" class="foto_articulos">
+            </div>
+            <div class="col-md-3">
+                <img src="img/pasteleria/3.jpg" class="foto_articulos">
+            </div>
+            <div class="col-md-3">
+                <img src="img/pasteleria/4.jpg" class="foto_articulos">
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-3">            
+                <span  class="tortaclase">Torta baño crema y frutal</span>
+                <select id="rel1" class="form-select" style="display: inline-block; width: 70%;">
+                    <option value=1>--Seleccione relleno--</option>
+                    <option value=2>Dulce de leche con chips</option>
+                    <option value=3>Crema con frutillas</option>
+                    <option value=4>Crema chocotorta</option>
+                </select>          
+            </div>  
+            <div class="col-md-3">
+                <span  class="tortaclase">Torta corazón</span>
+                <select id="rel2" class="form-select" style="display: inline-block; width: 70%;">
+                    <option value=1>--Seleccione relleno--</option>
+                    <option value=2>Dulce de leche con chips</option>
+                    <option value=3>Crema con frutillas</option>
+                    <option value=4>Crema chocotorta</option>
+                </select>   
+            </div>  
+            <div class="col-md-3">
+                <span  class="tortaclase">Torta con golosinas</span>
+                <select id="rel3" class="form-select" style="display: inline-block; width: 70%;">
+                    <option value=1>--Seleccione relleno--</option>
+                    <option value=2>Dulce de leche con chips</option>
+                    <option value=3>Crema con frutillas</option>
+                    <option value=4>Crema chocotorta</option>
+                </select>   
+            </div>  
+            <div class="col-md-3">
+                <span  class="tortaclase">Torta crema con sprinkles</span>
+                <select id="rel4" class="form-select" style="display: inline-block; width: 70%;">
+                    <option value=1>--Seleccione relleno--</option>
+                    <option value=2>Dulce de leche con chips</option>
+                    <option value=3>Crema con frutillas</option>
+                    <option value=4>Crema chocotorta</option>
+                </select>   
+            </div>  
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-3">            
+                <button class="btn btn-success" onclick="enviarTorta(1)">Enviar pedido</button>            
+            </div>  
+            <div class="col-md-3">
+                <button class="btn btn-success" onclick="enviarTorta(2)">Enviar pedido</button>
+            </div>  
+            <div class="col-md-3">
+                <button class="btn btn-success" onclick="enviarTorta(3)">Enviar pedido</button>
+            </div>  
+            <div class="col-md-3">
+                <button class="btn btn-success" onclick="enviarTorta(4)">Enviar pedido</button>
+            </div>  
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-3">
+                <img src="img/pasteleria/5.jpg" class="foto_articulos">
+            </div>
+            <div class="col-md-3">
+                <img src="img/pasteleria/6.jpg" class="foto_articulos">
+            </div>
+            <div class="col-md-3">
+                <img src="img/pasteleria/7.jpg" class="foto_articulos">
+            </div>
+            <div class="col-md-3">
+                <img src="img/pasteleria/8.jpg" class="foto_articulos">
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-3">            
+                <span  class="tortaclase">Torta cuadro de fútbol</span>
+                <select id="rel5" class="form-select" style="display: inline-block; width: 70%;">
+                    <option value=1>--Seleccione relleno--</option>
+                    <option value=2>Dulce de leche con chips</option>
+                    <option value=3>Crema con frutillas</option>
+                    <option value=4>Crema chocotorta</option>
+                </select>          
+            </div>  
+            <div class="col-md-3">
+                <span  class="tortaclase">Torta matilda</span>
+                <select id="rel6" class="form-select" style="display: inline-block; width: 70%;">
+                    <option value=1>--Seleccione relleno--</option>
+                    <option value=2>Dulce de leche con chips</option>
+                    <option value=3>Crema con frutillas</option>
+                    <option value=4>Crema chocotorta</option>
+                </select>   
+            </div>  
+            <div class="col-md-3">
+                <span  class="tortaclase">Torta Personalizada</span>
+                <select id="rel7" class="form-select" style="display: inline-block; width: 70%;">
+                    <option value=1>--Seleccione relleno--</option>
+                    <option value=2>Dulce de leche con chips</option>
+                    <option value=3>Crema con frutillas</option>
+                    <option value=4>Crema chocotorta</option>
+                </select>   
+            </div>  
+            <div class="col-md-3">
+                <span  class="tortaclase">Torta Nombre</span>
+                <select id="rel8" class="form-select" style="display: inline-block; width: 70%;">
+                    <option value=1>--Seleccione relleno--</option>
+                    <option value=2>Dulce de leche con chips</option>
+                    <option value=3>Crema con frutillas</option>
+                    <option value=4>Crema chocotorta</option>
+                </select>   
+            </div>  
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-3">
+                <button class="btn btn-success" onclick="enviarTorta(5)">Enviar pedido</button>            
+            </div>  
+            <div class="col-md-3">
+                <button class="btn btn-success" onclick="enviarTorta(6)">Enviar pedido</button>
+            </div>  
+            <div class="col-md-3">
+                <button class="btn btn-success" onclick="enviarTorta(7)">Enviar pedido</button>
+            </div>  
+            <div class="col-md-3">
+                <button class="btn btn-success" onclick="enviarTorta(8)">Enviar pedido</button>
+            </div>  
+        </div>
+    </section>
+
+    <footer class="container-fluid mt-5" style="background-color: rgb(197, 197, 177);">
+        <div class="row">
+            <div class="col-md-6 col-xs-12 text-center mt-3">
+                <ul style="list-style-type: none; ">
+                  <li><strong>San Nicolás</strong></li>
+                  <li>
+                    Av. Central  1825
+                  </li>
+                  <li>0336-4365234</li></ul>
+            </div>
+            <div class="col-md-6 col-xs-12 text-center mt-3">
+                <div class="social-networks">
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <strong>Redes sociales</strong>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/dolcejesi/" style="padding: 20px;" target="_blank" ><img src="img/iglogo.png" width="50" height="50"></a>
+                            <a href="https://www.facebook.com/jesica.plaini.9" style="padding: 20px;" target="_blank"><img src="img/fblogo.png" width="50" height="50"></a>
+                        </li>                      
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

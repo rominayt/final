@@ -1,0 +1,30 @@
+nav{
+    text-transform: uppercase;
+    background-color: beige;
+}
+
+nav a{  
+    padding: 5%;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(68, 65, 65);    
+}
+
+nav a:hover{
+    color:#0096D5;
+}
+
+.foto_articulos{
+    width: 17rem;
+    height: 20rem;
+    border: 7px solid rgb(212, 212, 190);
+}
+
+.tortaclase{
+    font-weight: bold;
+}
+
+.fondo{
+    background-image: url("img/logosepia.jpg");
+    background-position: center;
+}
