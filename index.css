@@ -28,3 +28,18 @@ nav a:hover{
     background-image: url("img/logosepia.jpg");
     background-position: center;
 }
+.btn-success{
+    background-color: #0096D5;
+    border-color: #0096D5;
+}
+
+.btn-success:focus{
+    background-color: beige; 
+    color: black;   
+    border-color: beige;
+}
+.btn-success:hover{
+    background-color: beige;   
+    color: black;
+    border-color: beige;
+}
